@@ -5,3 +5,5 @@ config :ex_brasil_api, :http_client,
     cep_v1: [url: "https://brasilapi.com.br/api/cep/v1/"],
     cep_v2: [url: "https://brasilapi.com.br/api/cep/v2/"]
   }
+
+import_config "#{config_env()}.exs"
