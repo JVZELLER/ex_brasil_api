@@ -22,7 +22,9 @@ defmodule ExBrasilApi.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:finch, "~> 0.16"}
+      {:finch, "~> 0.16"},
+      # Tests
+      {:bypass, "~> 2.1", only: :test}
     ]
   end
 end
