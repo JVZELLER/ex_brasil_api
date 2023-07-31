@@ -1,0 +1,4 @@
+# The owners below own the folder deploy/ and the file Makefile and only they can approve changes in these files
+# Please be careful changing the order; the last matching pattern takes the most precedence
+
+* @jvzeller @OiTAvO
