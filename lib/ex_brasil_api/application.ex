@@ -8,8 +8,7 @@ defmodule ExBrasilApi.Application do
   @impl true
   def start(_type, _args) do
     children = [
-      # Starts a worker by calling: ExBrasilApi.Worker.start_link(arg)
-      # {ExBrasilApi.Worker, arg}
+      {ExBrasilApi.HttpClient, name: ExBrasilApi.FinchClient}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
